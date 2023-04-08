@@ -1,1 +1,4 @@
-export class SubscriberDto {}
+export class CreateSubscriberDto {
+  name: string;
+  email: string;
+}
